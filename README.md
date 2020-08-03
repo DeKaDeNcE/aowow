@@ -5,6 +5,12 @@
 ![fuck it ship it](http://forthebadge.com/images/badges/fuck-it-ship-it.svg)
 
 
+## ![#f03c15](https://via.placeholder.com/18/f03c15/000000?text=+) THIS BRANCH IS MARKED FOR DEPRECATION! ![#f03c15](https://via.placeholder.com/18/f03c15/000000?text=+)
+
+As of [TrinityCore/TrinityCore@3164b58](https://github.com/TrinityCore/TrinityCore/commit/3164b58c7d170810b69378950c0891e5f5b8678b) the auth mechanism of TrinityCode changed to support SRP6. This branch keeps the old SHA1 auth but is otherwise in sync with the master branch to allow for easier migration.  
+The transitional period will end November 2020!
+
+
 ## Introduction
 
 AoWoW is a Database tool for World of Warcraft v3.3.5 (build 12340)
@@ -24,7 +30,7 @@ Also, this project is not meant to be used for commercial puposes of any kind!
   + Mysqli
   + mbString
 + MySQL ≥ 5.5.30
-+ [TDB 335.20021](https://github.com/TrinityCore/TrinityCore/releases/tag/TDB335.20021)
++ [TDB 335.20071](https://github.com/TrinityCore/TrinityCore/releases/tag/TDB335.20071)
 + Tools require cmake: Please refer to the individual repositories for detailed information
   + [MPQExtractor](https://github.com/Sarjuuk/MPQExtractor) / [FFmpeg](https://ffmpeg.org/download.html) / (optional: [BLPConverter](https://github.com/Sarjuuk/BLPConverter))
   + WIN users may find it easier to use these alternatives
